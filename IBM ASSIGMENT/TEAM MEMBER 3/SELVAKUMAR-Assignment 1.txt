@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Registration form</title>
+    </head>
+    <body align="center">
+        <h1> Student Registration Form</h1>
+        <label>Name:</label><br>
+        <input type="text" ><br><br>
+        <label >Email</label><br>
+        <input type="text" ><br><br>
+        <label > PhoneNo:</label><br>
+        <input type="tel" ><br><br>
+        <!-- Below code for city-->
+        <label > City:</label><br>
+        <select>
+            <option >Chennai</option>
+            <option >coimbutore</option>
+            <option >Madurai</option>
+            <option >Thotthukodi</option>
+            <option >Namakkal</option>
+            <option >Trichy</option>
+        </select><br><br>
+        <label> State</label><br>
+        <select>
+            <option >Tamil Nadu</option>
+            <option >Kerala</option>
+            <option >Karnataka</option>
+            <option >Gujarat</option>
+            <option >Bangaladesh</option>
+            <option >Andhra pradesh</option>
+        </select><br><br>
+        <label> Country</label><br>
+        <select>
+            <option >India</option>
+            <option >China</option>
+            <option >United state</option>
+            <option >Srilanka</option>
+            <option >Europe</option>
+            <option >Italy</option>
+        </select><br><br>
+        <button>Submit</button>
+    </body>
+</html>
