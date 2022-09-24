@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="form-container">
+        <div class="head">Registration Form</div>
+        <div class="fields">
+          <div class="field">
+            <p class="label">Name</p>
+            <input type="text" class="field__box" placeholder="Name"/>
+          </div>
+          <div class="form-field">
+            <p class="label">Email</p>
+            <input type="text" class="field__box" placeholder="Email"/>
+          </div>
+          <div class="form-field">
+            <p class="label">City</p>
+            <input type="text" class="field__box" placeholder="City"/>
+          </div>
+          <div class="form-field">
+            <p class="label">State</p>
+            <input type="text" class="field__box" placeholder="State"/>
+          </div>
+        </div>
+        <div class="buttons">
+                    <br>
+			<button class="btn--primary">Submit</button>
+		</div>
+      </div>
+    </div>
+  </body>
+</html>
