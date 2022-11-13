@@ -1,0 +1,104 @@
+
+
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple">
+    <title>Browse Page</title>
+</head>
+<body>
+    <br><br><br><br>
+      <center>
+        <h2><marquee width="60%" direction="right" height="100px">Browse Your Job With your Skill</marquee></h2><br>
+        <div id="search">
+        <frame>
+        <form method="POST" name=form action="/browse/searchjob">
+             <select type="text" name="searchopt">
+                 <option value="JOBTITLE" style="background-color:DodgerBlue">JOBTITLE</option>
+                 <option value="JOBTYPE" style="background-color:DodgerBlue">JOBTYPE</option>
+                 <option value="EXPERIENCE" style="background-color:DodgerBlue">EXPERIENCE</option>
+                 <option value="KEYSKILL" style="background-color:DodgerBlue">KEYSKILL</option>
+                 <option value="LOCATION" style="background-color:DodgerBlue">LOCATION</option>
+                <option value="SALARY" style="background-color:DodgerBlue">SALARY</option>
+                <option style="background-color:DodgerBlue">OTHER</option>
+             </select>
+                 <input type="text" name="srctitle">
+            <button class="button" type="submit" value="submit" id="button" style="background-color:DodgerBlue">Search Now</button>
+        </form>
+       </div>
+       <table>
+        <tr style="height: 60px; background-color: #0000FF; color: white;">
+            <td>
+                JOBTITLE
+            </td>
+            <td>
+                JOBTYPE
+            </td>
+            <td>
+                EXPERIENCE
+            </td>
+            <td>
+                KEYSKILL
+            </td>
+            <td>
+                LOCATION
+            </td>
+            <td>
+                SALARY
+            </td>
+            <td>
+                APPLY
+            </td>
+        </tr>
+
+           
+            <tr>
+            <td> <input type="text" placeholder="JOB TITLE" ></input></td>
+            <td><input type="text" placeholder="JOB TYPE" ></input></td>
+            <td><input type="text" placeholder="EXPERIENCE" ></input></td>
+            <td><input type="text" placeholder="KEY SKILL" ></input></td>
+            <td><input type="text" placeholder="LOCATION" ></input></td>
+            <td><input type="text" placeholder="SALERY" ></input></td>
+            <td>
+ 
+                <button type="submit" value="submit" style="color:#3300cc" type="button">APPLY</button>
+            </td>
+            </tr>
+           
+      </table>
+      </frame>
+      </center>
+
+<style type="text/css">
+    body{
+        background-color: white;
+        color: black;
+       
+    }
+    table{
+        border-collapse: separate;
+        box-shadow:2px 3px 3px rgb(165, 168, 166);
+
+    }
+    h2{
+        margin-right: 190px;
+    }
+
+    table tr{
+        height: 90px;
+        background-color: white;
+    }
+    table tr td{
+        width: 200px;
+        text-align: center;
+    }
+button{
+    	
+    	cursor: pointer;
+    }
+    #search{
+        margin-left: -130px;
+        color:Tomato;
+    }
+    
+</style>
